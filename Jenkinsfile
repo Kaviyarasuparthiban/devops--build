@@ -26,7 +26,7 @@ pipeline {
                     if (env.BRANCH_NAME == 'dev') {
                         sh """
                         docker tag react-app $DEV_REPO:latest
-                        docker login -u kaviyarasuparthiban -p dckr_pat_eZ-0q7jAfWWf8Me5gNQq2oIf55s
+                        docker login -u kaviyarasuparthiban -p dckr_pat_Hi4fdK26wr7eCKJoJRsp8RB-XgM
                         docker push $DEV_REPO:latest
                         """
                     } else if (env.BRANCH_NAME == 'master') {
