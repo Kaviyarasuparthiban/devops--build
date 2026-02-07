@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DEV_REPO = kaviyarasuparthiban/react-app-dev"
-        PROD_REPO = kaviyarasuparthiban/react-app-prod"
+        DEV_REPO = kaviyarasuparthiban/react-app-dev
+        PROD_REPO = kaviyarasuparthiban/react-app-prod
     }
 
     stages {
